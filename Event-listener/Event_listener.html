@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Series & Peliculas</title>
+    <script src="https://kit.fontawesome.com/88fc7182e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="EL_styles.css">
+</head>
+<body>
+    <header>
+        <label id="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="search"  type="text" oninput="Results()" placeholder="Buscar serie o pelicula" >
+            <i class="fa-solid fa-microphone-lines" id="mic"></i>
+            <div id="movie-result"></div>
+        </label>
+    </header>
+    <main>
+        <div class=content>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=1" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Dark</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=2" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Blue</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=3" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Green</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=4" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Yellow</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=5" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Brown</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=6" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Dark 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=7" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Dark 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=8" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Dark 4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=9" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Dark and u friends</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=10" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Evil Dark</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=12" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Darksito</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=13" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Si</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=14" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>No</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=15" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Tal vez</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=16" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Quizá</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-serie">
+                <div class="image-movie">
+                    <img src="https://picsum.photos/200/300?random=17" alt="">
+                    <div class="hover-background">
+                        <a href=""><i class="fa-solid fa-play"></i></a>
+                        <p>Fallecio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="EL_fuct.js"></script>
+</html>
